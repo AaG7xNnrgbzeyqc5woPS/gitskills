@@ -29,8 +29,8 @@ function pushfiles()
 
 function PushAllFiles()
 { 
-  # for file in $(ls)
-  for file in *
+  for file in $(ls)
+  #for file in *
   do
     addpushafile ${file}
   done
